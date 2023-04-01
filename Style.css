@@ -1,3 +1,5 @@
+*{ margin: 0; padding: 0; }
+
 .Menu{
     
     border: 10px solid green;
@@ -9,11 +11,35 @@
 .Menu h1 {
     font-family: 'Brush Script MT', cursive;
   }
-body{
-    background-image: url("../images/footer.jpeg");
-  }
+
 .Nav_Section{
     background-color: Black;
+    height: 10%;
+}
+
+.Footer_Section{
+    background-color: Black;
+    height: 15%;
+}
+
+.Nav_Bar{
+    padding-top: 20px;
+}
+
+.MainDisplay{
+    background-image: url("StockImages/Cafe.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 73.5%;
+    width: auto;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.Footer_Section{
+    padding-top: 0px;
+    margin-top: 0px;
 }
 
 ul{
@@ -22,12 +48,26 @@ ul{
 }
 
 li {
-    padding: 10px;
+    padding: 30px;
     display: inline-block;
     text-align: right;
     padding-right: 5%;
 }
 
-a{
+a, h2, p{
     color:white;
+}
+
+body{
+    margin: 0px 0px 0px 0px;
+}
+
+.MainText{
+    padding-top:15%;
+    text-align: center;
+}
+
+h1{
+    color:white;
+    font-size:50px;
 }
