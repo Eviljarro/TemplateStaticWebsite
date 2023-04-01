@@ -1,0 +1,47 @@
+.Menu {
+    
+    border: 15px solid green;
+    padding: 0% 6% 0% 6%;
+    margin: 10px 50px 10px 50px;
+    background-color: white;
+    font-size: 1.5em;
+}
+.Menu h1 {
+    font-family: 'Brush Script MT', cursive;
+  }
+.menu_image {
+    max-width: 25%;
+    height: auto;
+    display: block;
+    position: relative;
+    top:-100px;
+    right:0%;
+    left:300px
+}
+.menu_image img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.Nav_Section {
+    background-color: Black;
+}
+
+ul{
+    text-align: right;
+    padding-right: 10%;
+}
+
+
+
+li {
+    padding: 10px;
+    display: inline-block;
+    text-align: right;
+    padding-right: 5%;
+}
+
+a{
+    color:white;
+}
